@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576439056653",
+    "firebase_url": "https://desapego-b5b7d.firebaseio.com",
+    "project_id": "desapego-b5b7d",
+    "storage_bucket": "desapego-b5b7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576439056653:android:3fcb6dc76bf3f256cc1844",
+        "android_client_info": {
+          "package_name": "com.example.desapego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576439056653-7m6cbcrag9id9dd3oat4e9ad8eouhh6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.desapego",
+            "certificate_hash": "0134c4a4013b2b1616a3c38a440b90ec61eaf17c"
+          }
+        },
+        {
+          "client_id": "576439056653-pvubudt68o6qm2emj5975i1a1kr3i225.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXHaeMkOZcGyPlbbe40GvKb0vjpFn_U0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576439056653-pvubudt68o6qm2emj5975i1a1kr3i225.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
