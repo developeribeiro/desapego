@@ -36,8 +36,7 @@ dependencies {
     implementation 'com.github.santalu:mask-edittext:1.1.1'
     implementation 'com.github.d-max:spots-dialog:1.1@aar'
     implementation 'com.squareup.picasso:picasso:2.71828'
-
-
+    implementation 'com.synnapps:carouselview:0.1.5'
 
 
 }
