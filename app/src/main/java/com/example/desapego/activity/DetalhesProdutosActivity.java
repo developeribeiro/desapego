@@ -2,7 +2,10 @@ package com.example.desapego.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,6 +30,10 @@ public class DetalhesProdutosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalhes_produtos);
 
+
+        getSupportActionBar().setTitle("Detalhe produto");
+
+
         inicializarComponente();
 
         anuncioSelecionado = ( Anuncio) getIntent().getSerializableExtra("anuncioSelecionado");
@@ -50,6 +57,11 @@ public class DetalhesProdutosActivity extends AppCompatActivity {
             carouselView.setImageListener(imageListener);
 
         }
+    }
+
+    public void vizualizaTelefone(View view){
+        Intent i = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", anuncioSelecionado.getTelefone(),null));
+        startActivity(i);
     }
 
     private void inicializarComponente() {
